@@ -1,4 +1,6 @@
 ﻿
+using System.Windows.Forms;
+
 namespace WindowsFormsApp4
 {
     partial class Form1
@@ -33,7 +35,10 @@ namespace WindowsFormsApp4
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Form1";
+
+            label = new Label();
         }
+        Label label;
 
         #endregion
     }
